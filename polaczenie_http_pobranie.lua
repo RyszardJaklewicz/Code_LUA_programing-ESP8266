@@ -20,8 +20,6 @@ end
 -- call get function after each 10 second
 tmr.alarm(1, 10000, 1, function() GetFromThingSpeak() end)
 
-
-
 -- wersja 1
 
 http.get("http://192.168.1.101/index.php", nil, function(code, data)

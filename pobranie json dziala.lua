@@ -87,7 +87,6 @@ conn:connect(80,'192.168.1.101')
 end
 tmr.alarm(0, 3000, 1, function() readTSfield() end)
 
-
 -- ###########################################
 -- Poniżej przyklad z uzyciem zmiennych do przekazania sciezki na serwerze jaka wywolujemy / pliku jaki wywolujemy
 
